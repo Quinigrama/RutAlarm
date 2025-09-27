@@ -1,0 +1,5 @@
+{
+  "name": "Route Manager with Advanced Alarms",
+  "description": "An application to manage delivery routes with advanced alarms by analyzing an image of the route plan. It automatically detects addresses, schedules, and sets smart alarms for closing times.",
+  "requestFramePermissions": []
+}

@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>📱 Gestor de Rutas con Alarmas Avanzadas</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/tesseract.js@2.1.5/dist/tesseract.min.js"></script>
+  <style>
+    /* Custom styles for WebViewer compatibility */
+    body {
+        -webkit-text-size-adjust: 100%;
+        -webkit-user-select: none;
+        user-select: none;
+        -webkit-touch-callout: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+    }
+  </style>
+<script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "react": "https://aistudiocdn.com/react@^19.1.1"
+  }
+}
+</script>
+</head>
+<body class="bg-gradient-to-br from-indigo-500 to-purple-600">
+  <div id="root"></div>
+  <audio id="alarmSound" preload="auto">
+      <source src="data:audio/wav;base64,UklGRnoGAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQoGAACBhYqFbF1fdJivrJBhNjVgodDbq2EcBj+a2/LDciUFLIHO8tiJNwgZaLvt559NEAxQp+PwtmMcBjiR1/LMeSwFJHfH8N2QQAoUXrTp66hVFApGn+DyvmkcBjeS2/LNeSsFJHfH8N2QQAoUXrTp66hVFApGn+DyvmkcBjeS2/LNeSsFJHfH8N2QQAoUXrTp66hVFApGn+DyvmkcBjeS2/LNeSsFJHfH8N2QQAoUXrTp66hVFApGn+DyvmkcBjeS2/LNeSsFJHfH8N2QQAoUXrTp66hVFApGn+DyvmkcBjeS2/LNeSsFJHfH8N2QQAoUXrTp66hVFApGn+DyvmkcBjeS2/LNeSsFJHfH8N2QQAoUXrTp66hVFApGn+DyvmkcBjeS2/LNeSsFJHfH8N2QQAoUXrTp66hVFApGn+DyvmkcBjeS2/LNeSsFJHfH8N2QQAoUXrTp66hVFApGn+DyvmkcBjeS2/LNeSsFJHfH8N2QQAoUXrTp66hVFApGn+DyvmkcBjeS2/LNeSsFJHfH8N2QQAoUXrTp66hVFApGn+DyvmkcBjeS2/LNeSsFJHfH8N2QQAoUXrTp66hVFApGn+DyvmkcBjeS2/LNeSsFJHfH8N2QQAoUXrTp66hVFApGn+DyvmkcBjeS2/LNeSsFJHfH8N2QQAoUXrTp66hVFApGn+DyvmkcBjeS2/LNeSsFJHfH8N2QQAoUXrTp66hVFA==" type="audio/wav">
+  </audio>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
